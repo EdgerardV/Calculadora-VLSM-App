@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#CDCDCD"
+	tools:context=".CreateProyectActivity">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent">
+
+		<EditText
+			android:id="@+id/editText_ProyectoNombre_createProyect"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="20dp"
+			android:layout_marginTop="25dp"
+			android:layout_marginEnd="20dp"
+			android:layout_marginBottom="25dp"
+			android:background="#FFFFFF"
+			android:ems="10"
+			android:hint="@string/nombre_del_proyecto_Title"
+			android:importantForAutofill="no"
+			android:inputType="textPersonName"
+			android:textSize="25sp" />
+
+		<EditText
+			android:id="@+id/editText_ipInicial_createProyect"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="20dp"
+			android:layout_marginTop="25dp"
+			android:layout_marginEnd="20dp"
+			android:layout_marginBottom="25dp"
+			android:background="#FFFFFF"
+			android:ems="10"
+			android:hint="@string/ip_inicial_edit_proyect_txt"
+			android:importantForAutofill="no"
+			android:inputType="text"
+			android:textSize="25sp" />
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="20dp"
+			android:layout_marginTop="25dp"
+			android:layout_marginEnd="20dp"
+			android:layout_marginBottom="25dp"
+			android:background="#FDFDFD"
+			android:orientation="horizontal">
+
+			<TextView
+				android:id="@+id/textView4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/simbol_diagonal"
+				android:textSize="36sp" />
+
+			<EditText
+				android:id="@+id/editText_Mascara_createProyect"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:ems="10"
+				android:hint="@string/mascara_edit_proyect_txt"
+				android:importantForAutofill="no"
+				android:inputType="number"
+				android:textSize="25sp" />
+		</LinearLayout>
+
+		<Button
+			android:id="@+id/button_Aceptar_createProyect"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="75dp"
+			android:layout_marginTop="25dp"
+			android:layout_marginEnd="75dp"
+			android:layout_marginBottom="25dp"
+			android:background="#43A047"
+			android:text="@string/aceptar_createProyect_btntxt"
+			android:textColor="#000000"
+			android:textSize="25sp" />
+	</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

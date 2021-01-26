@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+		android:title="@string/nuevoProyecto_MenuItem_proyectos_text"
+		android:id="@+id/crearProyecto_menuitem_proyectos"
+		/>
+	<item
+		android:title="Borrar Usuario"
+		android:id="@+id/borrarUsuario_menuitem_proyectos"
+	/>
+	<item
+		android:title="@string/cerrarSesion_MenuItem_Proeyctos_text"
+		android:id="@+id/cerrarsesion_menuitem_proyectos"
+		/>
+</menu>

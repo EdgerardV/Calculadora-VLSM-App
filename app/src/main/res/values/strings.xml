@@ -1,0 +1,34 @@
+<resources>
+	<string name="app_name">CalculadoraVLSM</string>
+	<string name="usuario_Login_Text">Usuario:</string>
+	<string name="Password_Login_text">Contraseña:</string>
+	<string name="ingresar_login_button_text">Ingresar</string>
+	<string name="registrarse_login_button_text">Registrarse</string>
+	<string name="iniciar_sesion_title">Iniciar Sesion</string>
+	<string name="registrarse_Register_boton_txt">Registrar</string>
+	<string name="registrarse_title">Registrarse</string>
+	<string name="proyectos_Title">Proyectos</string>
+	<string name="cerrarSesion_MenuItem_Proeyctos_text">Cerrar Sesión</string>
+	<string name="nuevoProyecto_MenuItem_proyectos_text">Nuevo proyecto</string>
+	<string name="ip_inicial_edit_proyect_txt">Ip Inicial</string>
+	<string name="mascara_edit_proyect_txt">Máscara: </string>
+	<string name="simbol_diagonal">/</string>
+	<string name="nombre_del_proyecto_Title">Nombre del Proyecto</string>
+	<string name="addNodoToList_edidt_proyect_contentDescription">Añadir nodo a la lista</string>
+	<string name="datos_usuarios">userData</string>
+	<string name="prefijo_proyectos">proyect_</string>
+	<string name="descripcion_ProyectView_txt">Descripción</string>
+	<string name="cantidadNodos_ProyectView_txt">Cantidad Nodos</string>
+	<string name="aceptar_createProyect_btntxt">Aceptar</string>
+	<string name="guardar_button_editProyect_txt">Guardar</string>
+	<string name="iddelProyectoAEditar">idProyecto</string>
+	<string name="eliminar_editProyectoBtn_txt">Eliminar</string>
+	<string name="nombre_proyecto_ProyectView">Nombre Proyecto</string>
+	<string name="mascara_inicial_ProyectView">Mascara Inicial:</string>
+	<string name="ipinicial_ProyectView">Ip Inicial:</string>
+	<string name="usuarioLogedFile">uLogedFile</string>
+	<string name="usuariologeadoData">usaurioIn</string>
+	<string name="id_EditProyect_txt">id:</string>
+	<string name="ip_final_ListItemNodo_txt">Ip Final:</string>
+	<string name="iddelNodoAEditar">idNodo</string>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#E3E3E3"
+	tools:context=".ProyectViewActivity">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent">
+
+		<TextView
+			android:id="@+id/textView_NombreProyecto_ProyectView"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:background="#FFFFFF"
+			android:singleLine="true"
+			android:text="@string/nombre_proyecto_ProyectView"
+			android:textColor="#000000"
+			android:textSize="30sp" />
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:orientation="horizontal">
+
+			<TextView
+				android:id="@+id/textView_ipInicial_ProyectView"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginEnd="10dp"
+				android:layout_weight="1"
+				android:background="#FFFFFF"
+				android:singleLine="true"
+				android:text="@string/ipinicial_ProyectView"
+				android:textColor="#000000"
+				android:textSize="25sp" />
+
+			<TextView
+				android:id="@+id/textView_Mascara_ProyectView"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="10dp"
+				android:layout_weight="1"
+				android:background="#FFFFFF"
+				android:singleLine="true"
+				android:text="@string/mascara_inicial_ProyectView"
+				android:textColor="#000000"
+				android:textSize="25sp" />
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:background="#C4F9FF"
+			android:orientation="horizontal">
+
+			<EditText
+				android:id="@+id/editText_Descripcion_ProyectView"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="15dp"
+				android:layout_weight="1"
+				android:background="#FFFFFF"
+				android:ems="10"
+				android:hint="@string/descripcion_ProyectView_txt"
+				android:importantForAutofill="no"
+				android:inputType="textPersonName"
+				android:textSize="20sp" />
+
+			<EditText
+				android:id="@+id/editText_CantidadNodos_ProyectView"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="10dp"
+				android:layout_marginTop="15dp"
+				android:layout_marginEnd="5dp"
+				android:layout_weight="1"
+				android:background="#FFFFFF"
+				android:ems="10"
+				android:hint="@string/cantidadNodos_ProyectView_txt"
+				android:importantForAutofill="no"
+				android:inputType="number"
+				android:textSize="20sp" />
+
+			<ImageButton
+				android:id="@+id/imageButton_AgregarNodo"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="#C3C3C3"
+				android:contentDescription="@string/addNodoToList_edidt_proyect_contentDescription"
+				app:srcCompat="@drawable/add_nodo_btn_icon" />
+		</LinearLayout>
+
+		<ListView
+			android:id="@+id/ListView_Nodos_ProyectView"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_margin="10dp"
+			android:background="#E7FFCF" />
+
+	</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

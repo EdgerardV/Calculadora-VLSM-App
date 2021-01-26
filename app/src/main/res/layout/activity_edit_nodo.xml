@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".EditNodoActivity">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="20dp"
+			android:layout_marginTop="40dp"
+			android:layout_marginEnd="20dp"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="#FFFFFF"
+				android:text="id nodo: "
+				android:textColor="#000000"
+				android:textSize="20sp" />
+
+			<TextView
+				android:id="@+id/textView_idNodo_NodoEdit"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Nodo"
+				android:textColor="#000000"
+				android:textSize="20sp" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="20dp"
+			android:layout_marginTop="40dp"
+			android:layout_marginEnd="20dp"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginEnd="10dp"
+				android:background="#FFFFFF"
+				android:singleLine="true"
+				android:text="Descripcion: "
+				android:textColor="#000000"
+				android:textSize="25sp" />
+
+			<EditText
+				android:id="@+id/editText_Descripcion_NodoEdit"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginEnd="10dp"
+				android:background="#FFFFFF"
+				android:ems="10"
+				android:inputType="text"
+				android:singleLine="true"
+				android:text="Descripcion"
+				android:textColor="#000000"
+				android:textSize="25sp" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="20dp"
+			android:layout_marginTop="40dp"
+			android:layout_marginEnd="20dp"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginEnd="10dp"
+				android:background="#FBFBFB"
+				android:text="Cantidad: "
+				android:textColor="#000000"
+				android:textSize="25sp" />
+
+			<EditText
+				android:id="@+id/editText_Cantidad_NodoEdit"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginEnd="10dp"
+				android:background="#FBFBFB"
+				android:ems="10"
+				android:inputType="text"
+				android:text="Cantidad"
+				android:textSize="25sp" />
+
+		</LinearLayout>
+
+		<Button
+			android:id="@+id/button_Guardar_NodoEdit"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="75dp"
+			android:layout_marginTop="40dp"
+			android:layout_marginEnd="75dp"
+			android:background="#43A047"
+			android:backgroundTint="#7CB342"
+			android:text="@string/guardar_button_editProyect_txt"
+			android:textSize="25sp" />
+
+		<Button
+			android:id="@+id/button_Eliminar_NodoEdit"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="75dp"
+			android:layout_marginTop="40dp"
+			android:layout_marginEnd="75dp"
+			android:background="#C81713"
+			android:text="@string/eliminar_editProyectoBtn_txt"
+			android:textSize="25sp" />
+
+	</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
